@@ -9,9 +9,11 @@ namespace ExamenInterfaces.utils
     internal class AppConstants
     {
         public static string USER = "root";
-        public static string PASSWORD = "OnlyZoo";
-        public static string DATABASE = "OnlyZoo";
+        public static string PASSWORD = "martin";
+        public static string DATABASE = "Turnitin";
         public static string HOST = "localhost";
-        public static string PORT = "6969";
+        public static string PORT = "6942";
+        public static string FILES_PATH = "files/";
+        public static string API_PATH = "http://localhost:32771/LevenshteinDistance";
     }
 }
